@@ -79,7 +79,7 @@ jobs:
 
       # Create the release
       - name: Create Release or Pre-release
-        uses: softprops/action-gh-release@c062e08bd532815e2082a85e87e3ef29c3e6d191 #master (currently 2.0.5)
+        uses: softprops/action-gh-release@e7a8f85e1c67a31e6ed99a94b41bd0b71bbee6b8 #master (currently 2.0.5)
         with:
           release_name: Checkmarx Azure ${{ env.RELEASE_VERSION }}
           tag_name: ${{ env.GH_RELEASE_TAG_NAME }}
